@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:isScrollContainer="true" android:fitsSystemWindows="true"
+	style="@style/CustomTheme">
+	<AbsoluteLayout android:id="@+id/widget29"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="#7f7f7f">
+
+			
+		<ListView android:id="@+id/android:list"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:divider="@drawable/dark_green"
+			android:dividerHeight="2px" android:textSize="25px"
+			android:background="@drawable/green" android:longClickable="true" />
+			
+		<!-- <TextView android:id="@+id/android:empty"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/no_crops" android:textColor="#111111" />
+			
+		 <Button android:id="@+id/bkbtn" android:layout_width="60px"
+			android:layout_height="30px" android:textColor="#ff339900"
+			android:layout_x="30px" android:layout_y="380px">
+		</Button>
+		
+		<Button android:id="@+id/searchbtn" android:layout_width="60px"
+			android:layout_height="30px" android:textColor="#ff339900"
+			android:layout_x="120px" android:layout_y="380px">
+		</Button>
+		listheight 370
+		-->
+
+
+	</AbsoluteLayout>
+
+</LinearLayout>
+

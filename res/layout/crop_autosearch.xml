@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green">
+
+   
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/enter_crop_label"
+android:layout_width="318px"
+android:layout_height="wrap_content"
+android:text="@string/enter_crop"
+android:textSize="14sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="@color/solid_green"
+android:layout_x="1px"
+android:layout_y="3px"
+>
+</TextView>
+<AutoCompleteTextView android:id="@+id/autocomplete_crop"
+android:layout_width="318px"
+android:layout_height="wrap_content"
+android:textSize="18sp"
+android:typeface="serif"
+android:textStyle="bold"
+android:textColor="@color/solid_green"
+android:layout_x="1px"
+android:layout_y="29px"
+/>
+
+<Button
+android:id="@+id/search_btn"
+android:layout_width="108px"
+android:layout_height="wrap_content"
+android:text="Search"
+android:textSize="20sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:layout_x="10px"
+android:layout_y="80px"
+>
+</Button>
+</AbsoluteLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

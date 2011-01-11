@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, cropsearch!</string>
+    <string name="app_name">crop</string>
+    <string name="header_name">CropPriceNet</string>
+    <string name="welcomeText">Get you the latest crop price information...</string>
+	 <string name="loading">Retrieving data.....</string>
+    
+    
+<string name="enter_crop">Enter crop name to find price Deatails:</string>
+</resources>

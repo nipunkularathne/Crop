@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/green">
+
+	<TextView android:id="@+id/welcome_text" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/welcomeText"
+		android:typeface="sans" android:textStyle="bold" android:gravity="center"
+		android:layout_x="0px" android:layout_y="60px" android:textColor="@color/solid_green" />
+
+	<ImageView android:id="@+id/welcome_image"
+		android:layout_width="144px" android:layout_height="144px"
+		android:layout_x="84px" android:layout_y="110px" android:src="@drawable/image" />
+
+	<Button android:id="@+id/start_button" android:layout_width="116px"
+		android:layout_height="wrap_content" android:text="Enter Crop"
+		android:layout_x="30px" android:layout_y="300px" />
+	<Button android:id="@+id/select_button" android:layout_width="116px"
+		android:layout_height="wrap_content" android:text="Select Crop"
+		android:layout_x="150px" android:layout_y="300px" />
+</AbsoluteLayout>
+
+

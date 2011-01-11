@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="crops_array">
+		<item>Ambul Kesel</item>
+		<item>Arecanut</item>
+		 <item>Ash-Plantain</item>
+		<item>Beans</item>
+		<item>Big Onion (Imp)</item>
+		<item>Big Onion (Loc)</item>
+		<item>Brinjal</item>
+		<item>Batana</item>
+		<item>Bitter Gourd</item>
+		<item>Beetroot</item>
+		 <item>Cabbage</item>
+		<item>Cardamom</item>
+		<item>Coffee</item>
+		<item>Cinnamon (C4-5)</item>
+		<item>Cinnamon (sp)</item>
+		<item>Cinnamon (m4-5)</item>
+		<item>Cinnamon (GOROSU)</item>
+		<item>Cloves</item>
+		<item>Coconut</item>
+		<item>Capsicum</item>
+		<item>Carrot</item>
+		<item>Cucumber</item>
+		<item>Cowpea</item>
+		<item>Dried Chili</item>
+		<item>Elabatu</item>
+		<item>Garcinia</item>
+		<item>Gingeli</item>
+		<item>Ginger</item>
+		<item>Green chili</item>
+		<item>Green Gram</item>
+		<item>Gotukola</item>
+		<item>Kakeri</item>
+		<item>Kurakkan</item>
+		<item>Kekulu Rice</item>
+		<item>Kolikuttu</item>
+		<item>Knolkhol</item>
+		<item>Karunka</item>
+		<item>Kithul Honey</item>
+		<item>Kitul Treacle</item>
+		<item>Long Bean</item>
+		<item>Luffa</item>
+		<item>Leeks</item>
+		<item>Lime</item>
+		<item>Maize</item>
+		<item>Murunga</item>
+		<item>Nadu Rice</item>
+		<item>Okra</item>
+		<item>Papaya</item>
+		<item>Pumpkin</item>
+		<item>Pepper</item>
+		<item>Pepper (Green)</item>
+		<item>Potato</item>
+		<item>Potato (Imp)</item>
+		<item>Radish</item>
+		<item>Red Onion (Loc)</item>
+		<item>Red Onion (Imp)</item>
+		<item>Samba Rice</item>
+		<item>Snake Gourd</item>
+		<item>Seeni Kesel</item>
+		<item>Sweet Potato</item>
+		<item>Soya Beans</item>
+		<item>Thibbatu</item>
+		<item>Tumeric</item>
+		<item>Tamarind</item>
+		<item>Tomato</item>
+		<item>Wing Bean</item> 
+
+
+	</string-array>
+
+	<string-array name="crop_code">
+		<item>ABK</item>
+		<item>ARC</item>
+		  <item>ASP</item>
+		<item>BNS</item>
+		<item>BON</item>
+		<item>BON</item>
+		<item>BRJ</item>
+		<item>BTA</item>
+		<item>BTG</item>
+		<item>BTR</item>
+		 <item>CBG</item>
+		<item>CDM</item>
+		<item>CFE</item>
+		<item>CIN</item>
+		<item>CIN</item>
+		<item>CIN</item>
+		<item>CIN</item>
+		<item>CLV</item>
+		<item>CNT</item>
+		<item>CPS</item>
+		<item>CRT</item>
+		<item>CUC</item>
+		<item>CWP</item>
+		<item>DRC</item>
+		<item>ELB</item>
+		<item>GCN</item>
+		<item>GGL</item>
+		<item>GGR</item>
+		<item>GRC</item>
+		<item>GRG</item>
+		<item>GTK</item>
+		<item>KKI</item>
+		<item>KKN</item>
+		<item>KKR</item>
+		<item>KLK</item>
+		<item>KNK</item>
+		<item>KRK</item>
+		<item>KTH</item>
+		<item>KTT</item>
+		<item>LBN</item>
+		<item>LFA</item>
+		<item>LKS</item>
+		<item>LME</item>
+		<item>MAZ</item>
+		<item>MRG</item>
+		<item>NDR</item>
+		<item>OKR</item>
+		<item>PAY</item>
+		<item>PKN</item>
+		<item>PPR</item>
+		<item>PPR</item>
+		<item>PTO</item>
+		<item>PTO</item>
+		<item>RDS</item>
+		<item>RON</item>
+		<item>RON</item>
+		<item>SBR</item>
+		<item>SNG</item>
+		<item>SNK</item>
+		<item>SWP</item>
+		<item>SYB</item>
+		<item>TBT</item>
+		<item>TMR</item>
+		<item>TMR</item>
+		<item>TMT</item>
+		<item>WIB</item> 
+
+	</string-array>
+</resources>
