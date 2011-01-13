@@ -16,6 +16,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,7 +30,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class CropList extends ListActivity {
 	ProgressDialog progressDialog;
-	int cropPosition;
+	int cropPosition_globle;
 	private static class EfficientAdapter extends BaseAdapter {
         private LayoutInflater mInflater;
       //  String cropCode;
@@ -191,6 +192,7 @@ public class CropList extends ListActivity {
 		  	public void onItemClick(AdapterView<?> arg0, View view, int cropPosition,long arg3) {
 		 
 		  		String cropname=crops[cropPosition];
+		  		cropPosition_globle =cropPosition;
 	     		String cropcode=cropCode[cropPosition];
 	     		
 		  		
@@ -225,6 +227,7 @@ public class CropList extends ListActivity {
 				Parameters para = null;
 				WebService service = new WebService();
 				try{
+					Log.v("Crooooooooooooooop",cropcode);
 				 para= service.search(cropname,cropcode);
 				 Message message = webServiceCallHandler.obtainMessage();
 					Bundle bundle = new Bundle();
@@ -262,7 +265,7 @@ public class CropList extends ListActivity {
 
             Intent nextScreen = new Intent(CropList.this, Screen2.class);
             nextScreen.putExtra("object", result );
-            nextScreen.putExtra("index", cropPosition );
+            nextScreen.putExtra("index", cropPosition_globle );
             progressDialog.dismiss();
             CropList.this.startActivity(nextScreen);
 		    //System.out.print(result);
